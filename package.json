@@ -9,7 +9,7 @@
     "url": "https://github.com/zachbush96/nodeProxy.git"
   },
  
-  "main": "./lib/cors-anywhere.js",
+  "main": "sctipt.js",
   "files": [
     "Procfile",
     "test.html",
