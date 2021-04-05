@@ -1,0 +1,28 @@
+{
+  "name": "nodeProxy",
+  "version": "0.1",
+  "description": "Proxy",
+  "license": "MIT",
+  "author": "Zach Bush",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zachbush96/nodeProxy.git"
+  },
+ 
+  "main": "./lib/cors-anywhere.js",
+  "files": [
+    "Procfile",
+    "test.html",
+    "script.js"
+  ],
+  "dependencies": {
+    "http-proxy": "1.11.1",
+    "proxy-from-env": "0.0.1",
+    "express": "^4.16.4",
+    "puppeteer": "^1.10.0"
+  },
+
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
