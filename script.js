@@ -18,7 +18,7 @@ app.get('/', async (req, res) => {
                 args: ['--no-sandbox', '--disable-setuid-sandbox']
             });
             const page = await browser.newPage()
-            await page.goto(`http://${url}`)
+            await page.goto(`https://${url}`)
             
             let document = await page.evaluate(() => document.documentElement.outerHTML)
             document = replace(document, `/?url=${url.split('/')[0]}`)
